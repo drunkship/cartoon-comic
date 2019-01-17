@@ -1,0 +1,589 @@
+@charset "UTF-8";
+
+header.row h2  {
+	color: #00FF00;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 350%;
+	text-align: center;
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.40);
+	width: auto;
+}
+.logowhite {
+	color: #FFFFFF;
+}
+header.row p {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 3px 5px rgba(0,0,0,0.50);
+	letter-spacing: 0.5em;
+	color: #FFFFFF;
+}
+header.row {
+    padding-top: 75px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 75px;
+    background-image: url(images/PasoBamboo_Logo_BottomBolder.png), -moz-linear-gradient(270deg,rgba(230,234,204,1.00) 0%,rgba(230,234,204,1.00) 100%);
+    background-image: url(images/PasoBamboo_Logo_BottomBolder.png), -webkit-linear-gradient(270deg,rgba(230,234,204,1.00) 0%,rgba(230,234,204,1.00) 100%);
+    background-image: url(images/PasoBamboo_Logo_BottomBolder.png), -o-linear-gradient(270deg,rgba(230,234,204,1.00) 0%,rgba(230,234,204,1.00) 100%);
+    background-image: url(images/PasoBamboo_Logo_BottomBolder.png), linear-gradient(180deg,rgba(230,234,204,1.00) 0%,rgba(230,234,204,1.00) 100%);
+    background-size: auto 116%,100% auto;
+    background-repeat: no-repeat;
+    background-position: center 0%,left top;
+    background-color: #090;
+}
+nav.row .navbar.navbar-default {
+	background-color: #60762E;
+	background-image: -webkit-linear-gradient(270deg,rgba(90,107,71,1.00) 0%,rgba(90,107,71,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(90,107,71,1.00) 0%,rgba(90,107,71,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(90,107,71,1.00) 0%,rgba(90,107,71,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(90,107,71,1.00) 0%,rgba(90,107,71,1.00) 100%);
+}
+nav.row .nav.navbar-nav > li > a:link  , nav.row .nav.navbar-nav > li > a:visited{
+	border-left: 1px solid #1B5707;
+	border-right: 1px solid #0D5B04;
+	border-bottom: 1px solid #0D5B04;
+	border-top: 1px solid #1B5707;
+	color: #FFC;
+}
+nav.row .nav.navbar-nav > li > a:hover {
+	color: #FFF;
+	background-image: url(url), -webkit-linear-gradient(270deg,rgba(63,114,7,1.00) 0%,rgba(77,142,4,1.00) 100%);
+	background-image: url(url), -moz-linear-gradient(270deg,rgba(63,114,7,1.00) 0%,rgba(77,142,4,1.00) 100%);
+	background-image: url(url), -o-linear-gradient(270deg,rgba(63,114,7,1.00) 0%,rgba(77,142,4,1.00) 100%);
+	background-image: url(url), linear-gradient(180deg,rgba(63,114,7,1.00) 0%,rgba(77,142,4,1.00) 100%);
+}
+nav.row {
+	border-top: 5px solid #9c794f;
+}
+nav.row .nav.navbar-nav {
+	margin: 0px auto;
+	width: 791px;
+	float: none;
+	padding-right: 0px;
+}
+nav.row .navbar {
+	margin-bottom: 0px;
+}
+article.row aside blockquote {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+}
+article.row aside blockquote p {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	margin: 0px 0px 5px 0px;
+	text-indent: -0.5em;
+}
+article.row aside blockquote cite {
+	display: block;
+	padding-right: 10px;
+	font-style: italic;
+	text-align: right;
+	padding-left: 10px;
+}
+article.row aside {
+    font-size: 95%;
+    border-top: solid 5px #069;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 0px;
+    padding-bottom: 1em;
+    border-bottom: solid 3px #069;
+}
+.sidebar2 {
+}
+.sidebar2 h2 {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 130%;
+    padding: 0px 10px;
+    line-stacking: 1.4em;
+    text-align: center;
+}
+.sidebar2 p {
+	padding: 0px 10px;
+	margin-bottom: 5px;
+	line-height: 1.3em;
+}
+footer {
+	padding: 1em 0px;
+	margin-bottom: -142px;
+	background-color: #6FA26A;
+	background-image: -webkit-linear-gradient(90deg,rgba(90,107,71,1.00) 0%,rgba(109,128,88,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(90,107,71,1.00) 0%,rgba(109,128,88,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(90,107,71,1.00) 0%,rgba(109,128,88,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(90,107,71,1.00) 0%,rgba(109,128,88,1.00) 100%);
+	color: #FFC;
+	
+}
+body {
+    font-family: source-sans-pro, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    /* [disabled]font-size: 14px; */
+    background-color: #E6EACC;
+    background-size: 162% 170%;
+}
+article.row section h1 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-family: patua-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 300%;
+	line-height: 1.1em;
+}
+article.row blockquote {
+	border: none;
+	font-size: 100%;
+}
+.content {
+    text-align: center;
+    font-family: allan;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+article td, article th {
+    padding: 4px;
+    text-align: left;
+    border-top: solid 1px #090;
+}
+article th {
+    color: #F2F21E;
+    text-align: center;
+    border-bottom: solid 6px #060;
+    background-color: #77934E;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+article .ht {
+    text-align: center;
+}
+article .size {
+    width: 2em;
+}
+article .height {
+    width: 3em;
+    text-align: center;
+}
+article .diameter {
+}
+article caption {
+    color: #092609;
+    font-weight: bold;
+    font-size: 160%;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    margin-top: -2px;
+}
+article .price {
+}
+article .genus {
+    text-shadow: 0px 0px;
+    text-align: left;
+}
+article .commname {
+    text-align: left;
+}
+article pricetable {
+    font-size: 156%;
+    width: 156%;
+    font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+}
+article .bamboo {
+    font-family: "Helvetica Neue";
+    text-decoration: underline;
+    border-bottom: 2px dashed #3AA831;
+    text-align: center;
+    padding-top: 27px;
+    background-color: #C9CFA5;
+    background-image: -o-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: -webkit-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+}
+
+
+@media (max-width: 432px){
+header.row p {
+	letter-spacing: .1em;
+}
+header.row {
+    padding-top: 67px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+    background-size: 76% auto,auto auto,100% auto;
+    font-size: 71%;
+    background-position: center 27%;
+    margin-top: 0px;
+}
+article.row section h1 {
+	padding-top: 15px;
+	font-size: 185%;
+	line-height: 1.1em;
+	text-align: center;
+}
+article.row section h2 {
+	font-size: 150%;
+	line-height: 1.1em;
+}
+.group {
+    margin-bottom: -17px;
+}
+article th, article td {
+    display: block;
+}
+article table {
+    margin-right: auto;
+    margin-left: auto;
+}
+article th {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    font-size: 00;
+    overflow: hidden;
+}
+td.size:before {
+    content: "Size: ";
+}
+td.height:before {
+    content: "Height: ";
+}
+td.diameter:before  {
+    content: "Diamter: ";
+}
+td.price:before {
+    content: "Price: ";
+}
+article .size, 
+article .height,
+article .diameter,
+article .price {
+    width: 100%;
+    padding-left: 30%;
+    position: relative;
+    text-align: left;
+}
+td:before {
+    width: 25%;
+    display: block;
+    padding-right: 10px;
+    position: absolute;
+    top: 6px;
+    color: #060;
+    font-weight: bold;
+    white-space: nowrap;
+    left: .5em;
+}
+article tr {
+    border-bottom: solid 2px #060;
+}
+tr:nth-of-type(even) {
+    background-color: #D4EAD4;
+}
+
+
+
+
+
+}
+.frame_right {
+	background-image: url(images/gavino%20photoshoot.jpg);
+	background-size: 645px auto;
+	background-repeat: no-repeat;
+	background-position: 83% 57%;
+	padding-left: 0px;
+	margin-left: -422px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -4px;
+	min-height: 0px;
+	width: 174%;
+	height: 322%;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+
+
+}
+article .diam {
+    text-align: center;
+}
+article .temp {
+    text-align: center;
+}
+article .sun {
+    text-align: center;
+}
+article table {
+    font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+    font-size: 90%;
+    padding-left: 0px;
+    width: 97%;
+    border-bottom: 3px solid #060;
+    margin-bottom: 2em;
+    padding-top: 0px;
+    margin-top: 27px;
+    margin-left: 20px;
+}
+
+@media (min-width:1200px) and (max-width:1816px){
+.frame_right {
+    background-image: url(images/gavino%20photoshoot%204.jpg);
+    background-size: 499px auto;
+    background-repeat: no-repeat;
+    background-position: 82% 55%;
+    padding-left: 0px;
+    margin-left: -167px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -11px;
+    min-height: 0px;
+    width: 136%;
+    height: 660px;
+}
+.moto {
+	padding-left: 165px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 56px;
+	margin-bottom: -252px;
+	top: -541%;
+
+
+
+
+}
+.story {
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-size: 12pt;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    text-shadow: 0px 0px;
+    padding-left: 0px;
+    left: 84px;
+    width: 54%;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+.frame_right {
+	background-image: url(images/gavino%20photoshoot.jpg);
+	background-size: 374px auto;
+	background-repeat: no-repeat;
+	background-position: 83% 53%;
+	padding-left: 0px;
+	margin-left: -146px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -10px;
+	min-height: 0px;
+	width: 123%;
+}
+.story {
+    padding-top: 206px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    font-size: 9pt;
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    text-shadow: 0px 0px;
+    padding-left: 0px;
+}
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+.visit_small {
+}
+
+}
+.WWD {
+	padding-top: 5px;
+	margin-top: -642px;
+	font-weight: bolder;
+	font-size: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -105px;
+	margin-bottom: 51px;
+
+}
+.mission {
+	text-align: left;
+	padding-right: 0px;
+	margin-right: 460px;
+	padding-left: 1px;
+	margin-left: -192px;
+	margin-top: -28px;
+	margin-bottom: 43px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.story {
+	margin-top: -517px;
+	margin-bottom: 139px;
+	margin-right: 448px;
+	margin-left: -86px;
+	padding-left: 0px;
+}
+.mission2 {
+	margin-left: -185px;
+	margin-top: 77px;
+}
+.mis {
+}
+.row.col-sm-12 {
+}
+.moto {
+	padding-top: 0px;
+	padding-bottom: 522px;
+	margin-top: -527px;
+	margin-right: 484px;
+	margin-left: -132px;
+	font-weight: bolder;
+	left: 33.33333333%;
+
+}
+
+@media (min-width: 1817px){
+.story {
+    font-size: 15pt;
+    margin-left: -330px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 840px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top: -3px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-shadow: 0 0px;
+    float: left;
+}
+
+}
+.visit {
+    border-style: none;
+    border-collapse: separate;
+}
+
+@media (max-width:767px){
+.visit_small {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+}
+.minipic {
+}
+.gavino {
+	padding-right: 134px;
+	padding-left: 129px;
+
+}
+.miniframe {
+	margin-top: -24px;
+	background-image: url(images/gavino%20photoshoot.jpg);
+	background-position: center center;
+	background-size: auto 62%;
+	background-repeat: no-repeat;
+
+}
+.color {
+    background-color: #BEC591;
+    background-size: cover;
+}
+.underline {
+    border-bottom-style: solid;
+}
+.visit.small {
+}
+.narrow {
+    text-align: center;
+}
+
+@media screen{
+}
+.cs {
+}
+.pricesize {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.priceinfo {
+    font-size: large;
+    margin-top: -27px;
+}
+.priceback {
+    background-color: #C9CFA5;
+}
+.privacyintro {
+    font-size: large;
+}
+.aboutintro {
+    text-decoration: underline;
+    font-weight: normal;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 163%;
+}
+.pricetable {
+    width: 95%;
+}
+.suninfo {
+    text-align: right;
+    margin-bottom: -59px;
+    font-size: 12pt;
+    padding-right: 35px;
+}
+.bamboostyle {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    border-bottom: 2px dashed #3AA831;
+    text-align: left;
+    padding-top: 27px;
+    background-color: #C9CFA5;
+    background-image: -webkit-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(125,131,87,1.00) 0%,rgba(201,207,165,1.00) 100%);
+    font-weight: normal;
+}
+.privacypic {
+    padding-left: 0px;
+    margin-left: 123px;
+}
+.Comminfo {
+    background-color: #E6EACC;
+}
