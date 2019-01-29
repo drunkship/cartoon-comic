@@ -58,10 +58,10 @@ nav.row {
 	border-top: 5px solid #9c794f;
 }
 nav.row .nav.navbar-nav {
-	margin: 0px auto;
-	width: 791px;
-	float: none;
-	padding-right: 0px;
+    margin: 0px auto;
+    width: 818px;
+    float: none;
+    padding-right: 0px;
 }
 nav.row .navbar {
 	margin-bottom: 0px;
@@ -345,7 +345,7 @@ article table {
     background-repeat: no-repeat;
     background-position: 82% 55%;
     padding-left: 0px;
-    margin-left: -167px;
+    margin-left: -229px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: -11px;
@@ -448,11 +448,11 @@ article table {
 	font-size: 15px;
 }
 .story {
-	margin-top: -517px;
-	margin-bottom: 139px;
-	margin-right: 448px;
-	margin-left: -86px;
-	padding-left: 0px;
+    margin-top: -517px;
+    margin-bottom: 139px;
+    margin-left: -135px;
+    padding-left: 0px;
+    margin-right: auto;
 }
 .mission2 {
 	margin-left: -185px;
