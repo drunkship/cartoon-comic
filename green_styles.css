@@ -221,7 +221,7 @@ header.row {
     padding-top: 67px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 48px;
     background-size: 76% auto,auto auto,100% auto;
     font-size: 71%;
     background-position: center 27%;
@@ -350,7 +350,7 @@ article table {
     padding-bottom: 0px;
     margin-top: -11px;
     min-height: 0px;
-    width: 134%;
+    width: 136%;
     height: 660px;
 }
 .moto {
@@ -391,17 +391,18 @@ article table {
 
 @media (min-width:992px) and (max-width:1199px){
 .frame_right {
-	background-image: url(images/gavino%20photoshoot.jpg);
-	background-size: 374px auto;
-	background-repeat: no-repeat;
-	background-position: 83% 53%;
-	padding-left: 0px;
-	margin-left: -146px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-top: -10px;
-	min-height: 0px;
-	width: 123%;
+    background-image: url(images/gavino%20photoshoot.jpg);
+    background-size: 374px auto;
+    background-repeat: no-repeat;
+    background-position: 83% 53%;
+    padding-left: 0px;
+    margin-left: -146px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -10px;
+    min-height: 0px;
+    width: 123%;
+    margin-bottom: -48px;
 }
 .story {
     padding-top: 206px;
@@ -450,7 +451,7 @@ article table {
 .story {
     margin-top: -517px;
     margin-bottom: 139px;
-    margin-left: -119px;
+    margin-left: -111px;
     padding-left: 0px;
 }
 .mission2 {
