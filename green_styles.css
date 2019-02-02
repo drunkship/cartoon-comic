@@ -67,11 +67,8 @@ nav.row .navbar {
 	margin-bottom: 0px;
 }
 article.row aside blockquote {
-    padding: 0px;
-    margin-top: 24px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 20px;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
 }
 article.row aside blockquote p {
 	padding-top: 0px;
@@ -99,6 +96,7 @@ article.row aside {
     border-bottom: solid 3px #069;
 }
 .sidebar2 {
+    padding-top: 38px;
 }
 .sidebar2 h2 {
     margin-top: 7px;
@@ -429,6 +427,10 @@ article table {
 
 @media (min-width:768px) and (max-width:991px){
 .visit_small {
+}
+.rightup {
+    padding-top: 0px;
+    top: -551px;
 }
 
 }
