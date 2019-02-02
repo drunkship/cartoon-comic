@@ -67,8 +67,11 @@ nav.row .navbar {
 	margin-bottom: 0px;
 }
 article.row aside blockquote {
-	padding: 0px;
-	margin: 0px 0px 20px 0px;
+    padding: 0px;
+    margin-top: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
 article.row aside blockquote p {
 	padding-top: 0px;
