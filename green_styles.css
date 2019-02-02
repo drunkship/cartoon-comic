@@ -151,6 +151,7 @@ article.row blockquote {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin-top: -19px;
 }
 article td, article th {
     padding: 4px;
@@ -348,7 +349,7 @@ article table {
     margin-left: -236px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: -11px;
+    margin-top: -43px;
     min-height: 0px;
     width: 136%;
     height: 660px;
@@ -366,7 +367,6 @@ article table {
 
 }
 .story {
-    padding-top: 70px;
     padding-right: 0px;
     padding-bottom: 0px;
     font-size: 12pt;
@@ -376,6 +376,8 @@ article table {
     padding-left: 0px;
     left: 84px;
     width: 54%;
+    margin-top: -460px;
+    margin-left: -123px;
 }
 
 
@@ -399,20 +401,23 @@ article table {
     margin-left: -146px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-top: -10px;
+    margin-top: -46px;
     min-height: 0px;
     width: 123%;
     margin-bottom: -48px;
 }
 .story {
-    padding-top: 206px;
-    padding-right: 32px;
     padding-bottom: 0px;
     font-size: 9pt;
     -webkit-box-shadow: 0px 0px 0px;
     box-shadow: 0px 0px 0px;
     text-shadow: 0px 0px;
     padding-left: 0px;
+    margin-top: -263px;
+    margin-left: -90px;
+}
+.bodyinfo {
+    margin-top: 49px;
 }
 
 
@@ -449,10 +454,11 @@ article table {
 	font-size: 15px;
 }
 .story {
-    margin-top: -517px;
-    margin-bottom: 139px;
-    margin-left: -111px;
     padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    background-repeat: no-repeat;
 }
 .mission2 {
 	margin-left: -185px;
