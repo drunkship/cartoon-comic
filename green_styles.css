@@ -58,10 +58,13 @@ nav.row {
 	border-top: 5px solid #9c794f;
 }
 nav.row .nav.navbar-nav {
-    margin: 0px auto;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-bottom: 0px;
     width: 818px;
     float: none;
     padding-right: 0px;
+    margin-right: auto;
 }
 nav.row .navbar {
 	margin-bottom: 0px;
@@ -377,7 +380,7 @@ article table {
     padding-left: 0px;
     left: 84px;
     width: 54%;
-    margin-top: -459px;
+    margin-top: -466px;
     margin-left: -123px;
 }
 
