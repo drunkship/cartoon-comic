@@ -2145,6 +2145,10 @@ pre code {
 	height: 273px;
   }
   .col-lg-5 {
+    background-image: url(../images/Bamboo_Paper_Lighter.png);
+    background-repeat: no-repeat;
+    background-position: 7% 8%;
+    background-size: 236% auto;
   }
   .col-lg-4 {
 	width: 33.33333333%;
@@ -5153,8 +5157,10 @@ a.thumbnail.active {
 .media-left,
 .media-right,
 .media-body {
-  display: table-cell;
-  vertical-align: top;
+    display: table-cell;
+    vertical-align: top;
+    font-size: large;
+    padding-top: 56px;
 }
 .media-middle {
   vertical-align: middle;
@@ -5163,8 +5169,9 @@ a.thumbnail.active {
   vertical-align: bottom;
 }
 .media-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: x-large;
 }
 .media-list {
   padding-left: 0;

@@ -99,7 +99,6 @@ article.row aside {
     border-bottom: solid 3px #069;
 }
 .sidebar2 {
-    padding-top: 38px;
 }
 .sidebar2 h2 {
     margin-top: 7px;
@@ -108,6 +107,13 @@ article.row aside {
     padding: 0px 10px;
     line-stacking: 1.4em;
     text-align: center;
+}
+.maptitle {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Helvetica Neue";
+    text-align: center;
+    font-style: italic;
 }
 .sidebar2 p {
 	padding: 0px 10px;
@@ -535,7 +541,6 @@ article table {
 
 }
 .color {
-    background-color: #BEC591;
     background-size: cover;
 }
 .underline {
@@ -601,4 +606,27 @@ article table {
 }
 .Comminfo {
     background-color: #E6EACC;
+}
+.towerpic {
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    width: 48%;
+}
+.map {
+    float: none;
+}
+.contactInfo {
+    font-weight: bold;
+    padding-top: 4px;
+    margin-top: 19px;
+}
+.cu.paper {
+}
+.cu-paperback {
+    background-image: url(images/Bamboo_Paper.png);
+    background-repeat: no-repeat;
+    background-position: 7% 9%;
+    background-size: 236% auto;
 }
