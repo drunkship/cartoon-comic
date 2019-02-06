@@ -161,7 +161,6 @@ article.row blockquote {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: -19px;
 }
 article td, article th {
     padding: 4px;
@@ -515,6 +514,10 @@ article table {
 .visit {
     border-style: none;
     border-collapse: separate;
+    background-image: url(images/Bamboo_Paper_Lighter.png);
+    background-repeat: no-repeat;
+    background-size: 85% 99%;
+    background-position: 53% 8%;
 }
 
 @media (max-width:767px){
@@ -629,4 +632,8 @@ article table {
     background-repeat: no-repeat;
     background-position: 7% 9%;
     background-size: 236% auto;
+}
+.aboutfont {
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
